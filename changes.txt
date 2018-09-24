@@ -1,0 +1,46 @@
+v.1.1.8 - Sep 24, 2018
+  moved from subversion to github
+  
+v.1.1.7 - Apr 9, 2018
+  file parser: source zip file changed: previously, it consisted of one file 'proteins.csv';
+    now it contains thousands of files broken by SMP ID, f.e.
+      SMP63641_proteins.csv
+      SMP63643_proteins.csv
+      SMP63644_proteins.csv ...
+    data format in the files did not change
+  stale annots: implement 5% stale annot threshold (if there are more than 5% of annotations to be deleted,
+    pipelines issues an alert and does not delete anything)
+
+v.1.1.6 - Mar 19, 2018
+  file parser: implemented filter to skip some pathway names when loading
+  DETAILS: since start of 2018, the source file became significantly bigger
+    and the new pathway names are like:
+    48349|SMP:51243|Cardiolipin Biosynthesis CL(i-12:0/i-12:0/i-16:0/a-13:0)
+    48350|SMP:51244|Cardiolipin Biosynthesis CL(i-12:0/i-12:0/i-16:0/a-15:0)
+    48351|SMP:51245|Cardiolipin Biosynthesis CL(i-12:0/i-12:0/i-16:0/a-17:0)
+    48352|SMP:51246|Cardiolipin Biosynthesis CL(i-12:0/i-12:0/i-16:0/a-21:0)
+    48353|SMP:51247|Cardiolipin Biosynthesis CL(i-12:0/i-12:0/i-16:0/a-25:0)
+  we don't want to load them
+
+v.1.1.5 - Feb 5, 2018
+  QC tuneup for genes
+
+v.1.1.4 - Dec 19, 2017
+  upgraded from ANT to GRADLE
+
+v.1.1.3 - Nov 7, 2016
+qc: fixed spurious reporting of '*** unexpected format in file properties/non-matchable-SMP-ids.txt';
+  now the code ignores empty lines in properties/non-matchable-SMP-ids.txt
+
+v.1.1.2 - Oct 24, 2016
+qc: fixed handling of multiple rat/mouse orthologs
+ - previously no ortholog annotations were created for a human gene having multiple rat or mouse orthologs
+ - now ortholog annotations are created for all rat and mouse orthologs
+
+v.1.1.1 - Dec 7, 2015
+  minor tuneup of a summary report of unmatched ids
+
+v.1.1.0 - Nov 6, 2015
+  qc module honors a properties file with unmatchable SMPDB ids
+
+v.1.0.0 - initial version of the pipeline

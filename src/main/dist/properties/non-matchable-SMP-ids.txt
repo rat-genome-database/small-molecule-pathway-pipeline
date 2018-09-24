@@ -1,0 +1,114 @@
+SMP00004 - glycine and serine metabolism
+SMP00005 - pterine biosynthesis
+SMP00008 - phenylalanine and tyrosine metabolism
+SMP00009 - ammonia recycling
+SMP00030 - Oxidation of Branched Chain Fatty Acids
+SMP00036 - D-arginine and N-ornithine metabolism
+SMP00041 - Sulfate/Sulfite Metabolism 
+SMP00068 - androgen and estrogen metabolism
+SMP00080 - polythiazide action pathway
+SMP00081 - methylclothiazide action pathway
+SMP00087 - rofecoxib action pathway
+SMP00091 - Quinethazone action pathway
+SMP00101 - suprofen action pathway
+SMP00102 - bromfenac action pathway
+SMP00103 - cyclothiazide action pathway
+SMP00110 - indapamide action pathway
+SMP00113 - oxaprozin action pathway
+SMP00126 - phenylacetate metabolism
+SMP00127 - glucose-alanine cycle
+SMP00137 - 2-methyl-3-hydrox
+SMP00141 - 3-Methylglutaconic aciduria type IV
+SMP00144 - Adenosine Deaminase Deficiency
+SMP00155 - rescinnamine action pathway
+SMP00173 - Beta-Ketothiolase Deficiency 
+SMP00183 - Gamma-Glutamyltransferase Deficiency
+SMP00184 - Glucose Transporter Defect (SGLT2)
+SMP00245 - Glucose Transporter Defect (SGLT2)
+SMP00192 - hypacetylaspartia 
+SMP00208 - prolinemia type II
+SMP00214 - S-Adenosylhomocysteine (SAH) Hydrolase Deficiency 
+SMP00271 - phenprocoumon action pathway
+SMP00275 - ardeparin action pathway
+SMP00278 - lepirudin action pathway
+SMP00279 - ximelagatran action pathway
+SMP00282 - streptokinase action pathway
+SMP00283 - tenecteplase action pathway
+SMP00284 - urokinase action pathway
+SMP00297 - alprenolol action pathway
+SMP00304 - oxprenolol action pathway
+SMP00330 - tocainide action pathway
+SMP00339 - Hyperinsulinism-Hyperammonemia Syndrome
+SMP00356 - 17-beta hydroxysteroid dehydrogenase III deficiency
+SMP00368 - labetalol action pathway
+SMP00377 - felodipine action pathway
+SMP00392 - benzocaine action pathway
+SMP00396 - dibucaine action pathway
+SMP00414 - carefentanil action pathway
+SMP00417 - sufentanil action pathway
+SMP00421 - vatalanib action pathway
+SMP00452 - threonine and 2-oxobutanoate degradation
+SMP00466 - transfer of acetyl groups into mitochondria
+SMP00468 - degradation of superoxide
+SMP00470 - fluorouracil action
+SMP00483 - kidney function
+SMP00492 - ureidopropionase deficiency
+SMP00494 - tyrosinemia, transient, of the newborn
+SMP00497 - tyrosine hydroxylase deficiency
+SMP00500 - 5-oxoprolinase deficiency
+SMP00526 - Krabbe disease
+SMP00536 - mitochondrial DNA depetion syndrome
+SMP00546 - congenital lactic acidosis
+SMP00549 - 2-ketoglutarate dehydrogenase complex deficiency
+SMP00552 - Glycogen synthetase deficiency
+SMP00565 - aromatase deficiency
+SMP00566 - 17-alpha-hydroxylase deficiency (CYP17)
+SMP00576 - 21-hydroxylase deficiency (CYP21) 
+SMP00582 - Joubert syndrome
+SMP00583 - blue diaper syndrome
+SMP00586 - coagulation
+SMP00587 - angiotensin metabolism
+SMP00588 - muscle/heart contraction
+SMP00589 - gastric acid production
+SMP00608 - fluorouracil metabolism
+SMP00638 - levomethadyl acetate action pathway
+SMP00643 - pancreas function
+SMP00654 - Warburg effect
+SMP00657 - bopindolol action pathway
+SMP00664 - arbutamine action pathway
+SMP00668 - bevantolol action pathway
+SMP00669 - practolol action pathway
+SMP00672 - propoxyphene action pathway
+SMP00674 - anileridine action pathway
+SMP00676 - dezocine action pathway
+SMP00678 - methadyl acetate action pathway
+SMP00679 - 3-methylthiofentanyl action pathway
+SMP00680 - Dimethylthiambutene action pathway
+SMP00682 - Leucine Stimulation on Insulin Signaling
+SMP00683 - levallorphan action pathway
+SMP00685 - alvimopan action pathway
+SMP00689 - dihydromorphine action pathway
+SMP00690 - ketobemidone action pathway
+SMP00693 - antrafenine action pathway
+SMP00694 - carpofren action pathway
+SMP00695 - etoricoxib action pathway
+SMP00699 - lumiracoxib action pathway
+SMP00701 - phenybutazone action pathway
+SMP00702 - nepafenac action pathway
+SMP00707 - salsalate action pathway
+SMP00718 - 3-beta-hydroxysteroid dehydrogenase
+SMP00720 - 27-hydroxylase deficiency
+SMP00721 - 3-Phosphoglycerate dehydrogenase deficiency
+SMP00732 - temocapril metabolism pathway
+SMP00733 - temocapril action pathway
+SMP00735 - metiamide action pathway
+SMP00736 - betazole action pathway
+SMP02291 - the oncogenic action of 2-hydroxyglutarate
+SMP02292 - the oncogenic action of Succinate
+SMP02295 - the oncogenic action of Fumarate
+SMP02298 - Glutaminolysis and Cancer
+SMP02313 - sarcosine oncometabolkite pathway
+SMP02358 - the oncogenic action of L-2-hydroxyglutarate in Hydroxygluaricaciduria
+SMP02359 - the oncogenic action of D-2-hydroxyglutarate in Hydroxygluaricaciduria
+
+

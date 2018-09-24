@@ -1,0 +1,41 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="manager" class="edu.mcw.rgd.pipelines.SMPP.Manager">
+        <property name="version" value="--Small Molecule Pathway Pipeline -- ver. 1.1.8 -- Sep 24, 2018 --" />
+        <property name="inputFile" value="http://smpdb.ca/downloads/smpdb_proteins.csv.zip" />
+        <property name="parser" ref="parser" />
+        <property name="qc" ref="qc" />
+        <property name="staleAnnotDeleteThreshold" value="5%" />
+    </bean>
+
+    <bean id="parser" class="edu.mcw.rgd.pipelines.SMPP.FileParser">
+        <property name="ignoredPathwayPrefix">
+            <list>
+                <value>Cardiolipin Biosynthesis CL(</value>
+                <value>Cholesterol biosynthesis and metabolism CE(</value>
+                <value>De Novo Triacylglycerol Biosynthesis TG(</value>
+                <value>Lysolipid incorporation into ER PC(</value>
+                <value>Lysolipid incorporation into Mitochondria PC(</value>
+                <value>Phosphatidylcholine biosynthesis PC(</value>
+                <value>Phosphatidylcholine Biosynthesis PC(</value>
+                <value>Phosphatidylethanolamine Biosynthesis PE(</value>
+                <value>phospholipid biosynthesis  CL(</value>
+                <value>phospholipid biosynthesis C</value>
+                <value>phospholipid biosynthesis (C</value>
+                <value>phospholipid biosynthesis (PE</value>
+                <value>phospholipid biosynthesisCL(</value>
+                <value>Triacylglycerol Degradation TG(</value>
+                <value>Triacylglycerol metabolism TG(</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="qc" class="edu.mcw.rgd.pipelines.SMPP.QC">
+        <property name="unmatchingSmpdbIdsReportFile" value="data/unmatchingSmpdbIds.txt" />
+        <property name="nonmatchableSmpdbIdsFile" value="properties/non-matchable-SMP-ids.txt" />
+        <property name="createdBy" value="65" />
+        <property name="dataSrc" value="SMPDB" />
+        <property name="refRgdId" value="10402751" />
+    </bean>
+</beans>
