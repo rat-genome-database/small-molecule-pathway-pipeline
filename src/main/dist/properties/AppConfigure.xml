@@ -2,7 +2,7 @@
 
 <beans>
     <bean id="manager" class="edu.mcw.rgd.pipelines.SMPP.Manager">
-        <property name="version" value="--Small Molecule Pathway Pipeline -- ver. 1.1.8 -- Sep 24, 2018 --" />
+        <property name="version" value="--Small Molecule Pathway Pipeline -- build Jan 13, 2023 --" />
         <property name="inputFile" value="http://smpdb.ca/downloads/smpdb_proteins.csv.zip" />
         <property name="parser" ref="parser" />
         <property name="qc" ref="qc" />

@@ -1,3 +1,6 @@
+Jan 13, 2023
+  updated ojdbc dependency -- old no longer supported
+
 v.1.1.8 - Sep 24, 2018
   moved from subversion to github
   
